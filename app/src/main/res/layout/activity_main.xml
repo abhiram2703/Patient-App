@@ -1,0 +1,57 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#F4C7D6"
+    android:gravity="center"
+    android:padding="60px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Username"
+    android:textColor="@color/black"
+    android:textSize="55px"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:textColorHint="#626666"
+        android:textColor="@color/black"
+        android:background="#EDB5C7"
+        android:id="@+id/pntuname"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="@color/black"
+        android:textSize="55px"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EDB5C7"
+        android:textColor="@color/black"
+        android:textColorHint="#626666"
+        android:inputType="textPassword"
+        android:hint="Enter Password"
+        android:id="@+id/pntpass"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="LOGIN"
+        android:layout_marginTop="10px"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:background="#FFFFFF"
+        android:id="@+id/logbtn"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GO TO REGISTER"
+        android:textColor="@color/black"
+        android:background="#FFFFFF"
+        android:layout_marginTop="30px"
+        android:layout_marginLeft="20px"
+        android:layout_marginRight="20px"
+        android:id="@+id/regbtn"/>
+</LinearLayout>

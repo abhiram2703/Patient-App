@@ -1,0 +1,128 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="60px"
+    android:background="#F4C7D6"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="70px"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EDB5C7"
+        android:hint="Enter Name"
+        android:id="@+id/regname"
+        android:textColorHint="#626666"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:textSize="70px"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EDB5C7"
+        android:hint="Enter Age"
+        android:id="@+id/regage"
+        android:inputType="number"
+        android:textColorHint="#626666"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="70px"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EDB5C7"
+        android:hint="Enter Email"
+        android:id="@+id/reghname"
+        android:textColorHint="#626666"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number"
+        android:textSize="70px"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EDB5C7"
+        android:inputType="number"
+        android:id="@+id/regmob"
+        android:hint="Enter Mobile number"
+        android:textColorHint="#626666"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="70px"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EDB5C7"
+        android:hint="Enter Username"
+        android:id="@+id/reguname"
+        android:textColorHint="#626666"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="70px"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EDB5C7"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:id="@+id/regpass"
+        android:textColorHint="#626666"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm Password"
+        android:textSize="70px"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EDB5C7"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:id="@+id/regcpass"
+        android:textColorHint="#626666"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="REGISTER"
+        android:layout_marginTop="50px"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:textSize="60px"
+        android:padding="30px"
+        android:id="@+id/regbtn2"
+        android:background="#FFFFFF"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="BACK TO LOGIN"
+        android:textSize="60px"
+        android:layout_marginLeft="30px"
+        android:layout_marginRight="30px"
+        android:background="#FFFFFF"
+        android:padding="30px"
+        android:id="@+id/gotologbtn"
+        android:layout_marginTop="50px"/>
+</LinearLayout>
